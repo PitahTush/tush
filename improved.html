@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SkyCast - Weather Forecast</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <div class="logo">
+        <img src="codex image.jpg" alt="SkyCast Logo" />
+        <h1>Today's Weather Forecast</h1>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="improved.html">Home</a></li>
+          <li><a href="ABOUT PAGE.html">About</a></li>
+          <li><a href="CONTACT PAGE.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Weather Forecast Section -->
+    <main>
+      <section class="weather-forecast">
+        <div class="weather-box">
+          <h2>Nairobi</h2>
+          <p>Temperature: <br />Day 27° | Night 18°</p>
+          <p>Condition: Sunny</p>
+          <p>Unlikely to rain</p>
+        </div>
+
+        <div class="weather-box">
+          <h2>Mombasa</h2>
+          <p>Temperature: <br />Day 25° | Night 17°</p>
+          <p>Condition: Clear Sky</p>
+          <p>Unlikely to rain</p>
+        </div>
+
+        <div class="weather-box">
+          <h2>Thika</h2>
+          <p>Temperature: <br />Day 22° | Night 15°</p>
+          <p>Condition: Partly Cloudy</p>
+          <p>Likely to rain</p>
+        </div>
+      </section>
+      <main>
+        <!-- Current Hour Detailed Weather Section -->
+        <section class="hourly-weather">
+          <h2>Current Hour - Central Business District</h2>
+          <p>As of <span id="time">19:43 EAT</span></p>
+
+          <table class="current-hour-table">
+            <thead>
+              <tr>
+                <th colspan="4">Sunday, 13 October</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Time</td>
+                <td>20:00</td>
+                <td>Condition</td>
+                <td>Mostly Cloudy</td>
+              </tr>
+              <tr>
+                <td>Temperature</td>
+                <td>20°</td>
+                <td>Feels Like</td>
+                <td>20°</td>
+              </tr>
+              <tr>
+                <td>Wind</td>
+                <td>E 20 km/h</td>
+                <td>Humidity</td>
+                <td>49%</td>
+              </tr>
+              <tr>
+                <td>UV Index</td>
+                <td>0 of 11</td>
+                <td>Cloud Cover</td>
+                <td>77%</td>
+              </tr>
+              <tr>
+                <td>Rain Amount</td>
+                <td>0 mm</td>
+                <td>Precipitation</td>
+                <td>0%</td>
+              </tr>
+            </tbody>
+          </table>
+        </section>
+      </main>
+
+      <!-- Daily Forecast Table -->
+      <table border="1">
+        <thead>
+          <tr>
+            <th colspan="2">Today's Forecast for Current Location</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Morning</td>
+            <td>19°</td>
+          </tr>
+          <tr>
+            <td>Afternoon</td>
+            <td>25°</td>
+          </tr>
+          <tr>
+            <td>Evening</td>
+            <td>18°</td>
+          </tr>
+          <tr>
+            <td>Overnight</td>
+            <td>15°</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <!-- Weekly Forecast Table -->
+      <table border="1" style="margin-top: 20px">
+        <thead>
+          <tr>
+            <th colspan="3">Weekly Weather Forecast</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Monday</td>
+            <td>High: 28°</td>
+            <td>Low: 17°</td>
+          </tr>
+          <tr>
+            <td>Tuesday</td>
+            <td>High: 27°</td>
+            <td>Low: 18°</td>
+          </tr>
+          <tr>
+            <td>Wednesday</td>
+            <td>High: 26°</td>
+            <td>Low: 16°</td>
+          </tr>
+          <tr>
+            <td>Thursday</td>
+            <td>High: 29°</td>
+            <td>Low: 19°</td>
+          </tr>
+          <tr>
+            <td>Friday</td>
+            <td>High: 30°</td>
+            <td>Low: 21°</td>
+          </tr>
+          <tr>
+            <td>Saturday</td>
+            <td>High: 31°</td>
+            <td>Low: 20°</td>
+          </tr>
+          <tr>
+            <td>Sunday</td>
+            <td>High: 25°</td>
+            <td>Low: 15°</td>
+          </tr>
+        </tbody>
+      </table>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+      <p>SkyCast © 2024 | <a href="#">Privacy Policy</a></p>
+    </footer>
+
+    <!-- JavaScript (Optional) -->
+    <script src="script.js"></script>
+  </body>
+</html>
